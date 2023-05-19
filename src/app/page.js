@@ -1,21 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
+import Courses from './components/Courses'
 
 const HomePage = () => {
 	return (
 		<div>
-			<h1>Welcome to Next 13 project</h1>
-			<ul>
-				<li>
-					<Link href='/'>Home</Link>
-				</li>
-				<li>
-					<Link href='/about'>About</Link>
-				</li>
-				<li>
-					<Link href='/about/team'>Team</Link>
-				</li>
-			</ul>
+			<h1>Welcome to Learning platform</h1>
+			<Courses />
 		</div>
 	)
 }
